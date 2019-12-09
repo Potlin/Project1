@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="鞍点参考.cpp">
+    <ClCompile Include="mystrcat.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
