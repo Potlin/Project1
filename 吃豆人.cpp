@@ -1,7 +1,3 @@
-#include<math.h>
-#include<iostream>
-#include<windows.graphics.h>
-using namespace std;
 #include <math.h>
 #include <stdio.h>
 
@@ -13,5 +9,4 @@ int main() {
                 x * x + y * y < 1 &&                /* disk  */
                     fabs(atan2(y, x)) > 0.5 &&          /* mouth */
                     x * x + pow(y - 0.5, 2) > 0.02]);   /* eye   */
-    return 0;
 }
